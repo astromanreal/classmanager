@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+*.env
+*.env.local
+*.env.dev
+*.env.prod
+db.sqlite3
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Secret key
+*.secret
+
+# Virtual environment
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+
+# Test database
+*.db
+*.sqlite3
+
+# Log files
+*.log
+
+# Ignore migrations
+**/migrations/
+
+# Ignore all .pyc files in the project
+**/__pycache__/
+*.pyc
